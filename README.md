@@ -49,10 +49,10 @@
 # State Management 
 - This refers to techniques used to manage the UI's state and keep it in sync with the underlying data.
 - there are different techniques of managing state in Flutter, like:
-   - > setState()
-   - > BloC 
-   - > Redux
-   - > Riverpod
+   - > [setState()](https://api.flutter.dev/flutter/widgets/State/setState.html)
+   - > [BloC](https://bloclibrary.dev/#/)
+   - > [Redux](https://pub.dev/packages/flutter_redux)
+   - > [Riverpod](https://pub.dev/packages/riverpod)
 
 #
 
