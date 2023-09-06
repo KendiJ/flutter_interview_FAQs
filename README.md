@@ -1,5 +1,5 @@
 # Flutter_interview_Quiz
-# SOLID Principles
+## SOLID Principles
 - Acroname for Five Object Oriented Design principles by uncle Bob, intended to to guid software developers in creating a more flexible, maintainable and scallable apps. 
 
 * S - Single Responsibility principle
@@ -19,7 +19,7 @@
     - This principle states that the high level module must not depend on the low level module, but they should depend on the obstractions. This principle allows for decoupling.
 
 
-# Types of Code Architectures 
+## Types of Code Architectures 
 - This basically means how you structure your codebase to allow separation of concerns
 
 * Flutter Vanilla
@@ -40,13 +40,13 @@
 
 # 
 
-# Design Pattern aprroaches 
+## Design Pattern aprroaches 
 - Design patterns are general reusable solutions to common software design problems. They provide proven ways to structure code, organize components, and handle interactions between different parts of your application. Design patterns focus on improving the overall architecture, maintainability, and scalability of your codebase. 
 - Some common design patterns include Singleton, Factory Method, Observer, Composite, and more. These patterns are applicable to various aspects of software development beyond just state management.
 
 #
 
-# State Management 
+## State Management 
 - This refers to techniques used to manage the UI's state and keep it in sync with the underlying data.
 - there are different techniques of managing state in Flutter, like:
    - > [setState()](https://api.flutter.dev/flutter/widgets/State/setState.html)
@@ -56,4 +56,17 @@
 
 #
 
-#
+# Asynch Programming
+- This referes to the ability to execute tasks concurrently or without blocking the main thread of the application. This is essential for handling time-consuming operations such as network requests, file I/O, and animations without freezing the user interface (UI) and providing a smooth user experience.
+
+- There are two mechanisms for asynchronous programming in Flutter i.e.:
+    - [Future class](https://api.dart.dev/stable/3.1.0/dart-async/Future-class.html)
+    * Futures in Dart represent values or errors that will be available at some time in the future. They are commonly used for asynchronous     operations like network requests. You can attach callbacks to a Future to execute code when the operation is complete or when an error occurs.
+
+    `` Future<String> fetchUserName() async {
+     ``   // Perform the asynchronous operation to fetch the user's name.
+      ``   String userName = await getUserFromDatabase();
+       ``     return userName;
+    `` }
+
+    - []()
